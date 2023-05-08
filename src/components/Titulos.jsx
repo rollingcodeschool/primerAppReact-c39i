@@ -4,12 +4,12 @@ const Titulos = () => {
   return (
     <>
       <div>
-        <h1>Prueba de titulo principal</h1>
+        <h1 className="display-4 text-center">Prueba de titulo principal</h1>
       </div>
-      <ul>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
+      <ul className="list-group">
+        <li className="list-group-item">item 1</li>
+        <li className="list-group-item">item 2</li>
+        <li className="list-group-item">item 3</li>
       </ul>
     </>
   );
